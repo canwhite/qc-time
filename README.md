@@ -1,9 +1,11 @@
 
-时间工具
+qc-time 时间工具
 
 ### install
 
-前后端均可用
+```
+yarn add qc-time
+```
 
 1.前端esm引入
 ```
