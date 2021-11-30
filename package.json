@@ -1,0 +1,9 @@
+{
+  "name": "qc-time",
+  "version": "1.0.0",
+  "description": "time tools",
+  "main": "umd/index.js",
+  "module":"es/index.js",
+  "author": "qiaochao",
+  "license": "MIT"
+}
