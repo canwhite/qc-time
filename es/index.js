@@ -19,40 +19,17 @@ function get_time(grid) {
 
 function get_week() {
   var date = new Date();
-  var week = date.getDay();
-  var des = "";
-
-  switch (week) {
-    case 0:
-      des = "星期日";
-      break;
-
-    case 1:
-      des = "星期一";
-      break;
-
-    case 2:
-      des = "星期二";
-      break;
-
-    case 3:
-      des = "星期三";
-      break;
-
-    case 4:
-      des = "星期四";
-      break;
-
-    case 5:
-      des = "星期五";
-      break;
-
-    case 6:
-      des = "星期六";
-      break;
-  }
-
-  return des;
+  var weekNum = date.getDay();
+  var weekValue = {
+    0: "星期天",
+    1: "星期一",
+    2: "星期二",
+    3: "星期三",
+    4: "星期四",
+    5: "星期五",
+    6: "星期六"
+  }[weekNum];
+  return weekValue;
 }
 
 function get_stamp13() {
